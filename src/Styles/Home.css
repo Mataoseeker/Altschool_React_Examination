@@ -1,0 +1,139 @@
+.nav-link{
+    height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+.home-div{
+    background-color: rgb(94, 94, 245);
+    padding: 10px;
+    margin-top: 100px;
+}
+.home-div p{
+    background-color: rgb(94, 94, 245);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+.Link{
+    background-color: rgb(94, 94, 245);
+    font-size: 16px; 
+    color: white;
+}
+.home-header{
+    background-color: rgb(94, 94, 245);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 70px;
+}
+.home-header span{
+    color: rgb(94, 94, 245);
+}
+.home-note p{
+    background-color:black;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+}
+.home-footer h4{
+    background-color: rgb(15, 15, 15);
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 70px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 500px;
+}
+.link-item1{
+    color: white;
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 300px;
+    padding: 10px;
+    text-decoration: none;
+}
+.link-item2{
+    color: white;
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: right;
+    margin-top: 20px;
+    margin-left: 50px;
+    /* width: 300px; */
+    padding: 10px;
+    text-decoration: none;
+}
+.link-item3{
+    color: white;
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: right;
+    margin-top: 20px;
+    margin-left: 50px;
+    /* margin-right: 20px; */
+    border: 1px solid rgb(94, 94, 245);
+    border-radius: 8px;
+    padding: 7px 15px;
+    text-decoration: none;
+}
+.link-item3:hover{
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+.footer{
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 75px;
+}
+.footer span{
+    color: rgb(94, 94, 245);
+}
+
+  @media screen and (max-width: 600px) {
+    .link-item1{
+        margin-left: 2px;
+        font-size: 18px;
+    }
+   .link-item2{
+    font-size: 16px;
+    margin-right: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   } 
+   .link-item3{
+    font-size: 16px;
+    margin-right: 5px;
+    padding: 10px;
+    float: left;
+   }
+   .home-header{
+    font-size: 20px;
+   }
+   .home-note{
+    font-size: 20px;
+   }
+   .home-footer h4{
+    margin-left: 30px;
+   }
+  }
