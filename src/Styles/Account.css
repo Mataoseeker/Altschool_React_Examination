@@ -68,7 +68,7 @@
 @media screen and (max-width: 600px){
     .account-page{
         padding: 60px 0;
-        margin-top: 200px;
+        margin-top: 100px;
     }
     .account-image img{
         width: 80px;
@@ -82,7 +82,7 @@
         border-radius: 5px;
         padding:10px;
         font-size: 14px;
-        margin-left: 25px;
+        margin-left: 35px;
         margin-top: 40px;
     }
     .account-info h3{
