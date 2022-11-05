@@ -9,8 +9,7 @@ const DashBoard = () => {
             <>
             <div className="dashBoard">
             <nav className="nav-link">
-                <Link to="/" className="link-item1">Altsch Academy</Link>
-                <Link to="/dashboard" className="link-item2">DashBoard</Link>  
+                <Link to="/" className="link-item1">Altsch Academy</Link> 
                 <Link to="account" className="link-item2">My Account</Link>  
                 <Link to="/login" className='link-item2'>Welcome, <span>{user.name}</span></Link>   
                 {!user.isGuestUser && (<button className='link-item3' onClick={logOut}>Logout</button> )}   

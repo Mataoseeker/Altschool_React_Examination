@@ -6,7 +6,6 @@ import Contact from './Pages/Contact';
 import Login from './Pages/Login';
 import Register from './Pages/Register';
 import DashBoard from './Pages/DashBoard';
-import Profile from './Pages/Profile';
 import Account from './Pages/Account';
 import Auth from "./Pages/Auth";
 import NotFound from './Pages/NotFound';
@@ -39,7 +38,6 @@ function App() {
          <Route path="/register" element={ <Register />} />
          <Route path="/login" element={<Login /> } />
       <Route path="/dashboard" element={<DashBoard />}>
-          <Route path='profile' element={<Profile />} />
           <Route path='account' element={<Account />} />
           <Route path='*' element={<NotFound />} />
       </Route>
