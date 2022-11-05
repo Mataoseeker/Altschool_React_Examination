@@ -21,3 +21,14 @@ b{
     background-color: rgb(196, 194, 192);
     font-size: 40px;
 }
+@media screen and (max-width: 600px) {
+    .blockquote{
+        margin-left: 0px;
+        width: 100%;
+        font-size:16px;
+       padding: 0px;
+       border-radius: 2px;
+       margin-top: 250px;
+    }
+
+}

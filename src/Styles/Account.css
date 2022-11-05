@@ -65,4 +65,31 @@
     margin-top: 50px;
 
 }
+@media screen and (max-width: 600px){
+    .account-page{
+        padding: 60px 0;
+        margin-top: 200px;
+    }
+    .account-image img{
+        width: 80px;
+        height: 80px;
+        margin-left: 130px;
+        margin-top: 50px;
+    }
+    .account-info input{
+        width: 250px;
+        height: 30px;
+        border-radius: 5px;
+        padding:10px;
+        font-size: 14px;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+    .account-info h3{
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        margin-top: 30px;
+    } 
+}
  

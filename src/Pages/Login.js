@@ -36,7 +36,7 @@ const Login = () => {
                 <h4>Login</h4>
                 <input placeholder="Enter your Username"
                 {...register("username", {required: true})} 
-                aria-invalid={errors.username? "true":"false"}/>
+                aria-invalid={errors.username? "true":"false"} />
                 {errors.username?.type==="required" && <p>Username is required</p>}
 
                 <input type="password" placeholder="Enter your Password"

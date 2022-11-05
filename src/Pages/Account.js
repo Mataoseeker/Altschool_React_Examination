@@ -14,7 +14,7 @@ const Account = () => {
 
             <div className="account-info">
                 
-                <form>
+                <form className="course-form">
                 <h3>Courses Available</h3>
                     <input type="text" placeholder="Technical Writing" />
                     <input type="text" placeholder="Open Source Contribution" />

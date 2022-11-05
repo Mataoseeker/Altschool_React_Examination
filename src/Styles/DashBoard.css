@@ -5,7 +5,7 @@
     position: fixed;
 }
 .account-pagee{
-    background: rgb(2, 0, 36);
+    /* background: rgb(2, 0, 36); */
     background: radial-gradient(
       circle,
       rgba(2, 0, 36, 1) 0%,
@@ -43,4 +43,12 @@
   );
     margin-top: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width: 600px){
+    .account-pagee h1{
+        font-size: 30px;
+    }
+    .account-pagee h3{
+        font-size: 20px;
+    }
 }

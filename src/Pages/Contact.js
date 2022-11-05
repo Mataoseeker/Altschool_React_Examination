@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { useUserContext } from "../context/UserContext";
 import "../Styles/Contact.css"
 const Contact = () => {
+  
   const { user } = useUserContext();
     const {
         register,
