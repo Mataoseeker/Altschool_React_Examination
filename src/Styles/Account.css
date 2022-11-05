@@ -73,7 +73,7 @@
     .account-image img{
         width: 80px;
         height: 80px;
-        margin-left: 130px;
+        margin-left: 100px;
         margin-top: 50px;
     }
     .account-info input{
@@ -82,7 +82,7 @@
         border-radius: 5px;
         padding:10px;
         font-size: 14px;
-        margin-left: 50px;
+        margin-left: 25px;
         margin-top: 40px;
     }
     .account-info h3{

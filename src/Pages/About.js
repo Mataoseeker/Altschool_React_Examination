@@ -37,9 +37,12 @@ const About = () => {
                    looking for more education, or want to switch to a profession in technology.
                 </h5>
                 </div>
-            </div>
+                <footer>
+                   <h4 className="footer">  &copy; Martha <span>Ochuko</span> Osika || Altschool <span>React</span> Examination</h4>
+                </footer>
         </div>
-     );
+        </div>
+        );
 }
  
 export default About;

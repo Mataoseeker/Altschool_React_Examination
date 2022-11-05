@@ -23,11 +23,11 @@ b{
 }
 @media screen and (max-width: 600px) {
     .blockquote{
-        margin-left: 0px;
-        width: 100%;
-        font-size:16px;
-       padding: 0px;
-       border-radius: 2px;
+        margin-left: 20px;
+        width: 80%;
+        font-size:14px;
+       padding: 10px;
+       border-radius: 10px;
        margin-top: 250px;
     }
 

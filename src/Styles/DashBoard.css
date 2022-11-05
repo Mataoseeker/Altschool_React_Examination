@@ -30,17 +30,17 @@
     
 }
 .account-pagee h3{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 400;
     color: white;
     text-align: center;
-    background: rgb(2, 0, 36);
+    /* background: rgb(2, 0, 36);
   background: radial-gradient(
     circle,
     rgba(2, 0, 36, 1) 0%,
     rgba(30, 54, 59, 1) 0%,
-    rgba(93, 93, 116, 1) 100%
-  );
+    rgba(2, 0, 36, 1) 100%
+  ); */
     margin-top: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

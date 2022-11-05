@@ -75,6 +75,9 @@ const Register = () => {
             <Link to="/login" className='log-link'>Login</Link></p>
         </form>
       </div>
+      <footer>
+                   <h4 className="footer">  &copy; Martha <span>Ochuko</span> Osika || Altschool <span>React</span> Examination</h4>
+                </footer>
     </div>
   );
 };

@@ -34,21 +34,15 @@ function App() {
     <Auth />
        <Routes>
          <Route path="/" element={<Home />} />
-
          <Route path="/about" element={<About /> } />
-
          <Route path="/contact" element={<Contact />} />
-
          <Route path="/register" element={ <Register />} />
-
          <Route path="/login" element={<Login /> } />
-
       <Route path="/dashboard" element={<DashBoard />}>
           <Route path='profile' element={<Profile />} />
           <Route path='account' element={<Account />} />
           <Route path='*' element={<NotFound />} />
       </Route>
-
          <Route path="*" element={<NotFound />} />
        </Routes> 
        </UserContextProvider>

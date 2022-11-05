@@ -49,7 +49,9 @@ const Login = () => {
             
             </form>
             </div>
-            
+            <footer>
+                   <h5 className="footer">  &copy; Martha <span>Ochuko</span> Osika || Altschool <span>React</span> Examination</h5>
+                </footer>
         </div>
      );
 }
